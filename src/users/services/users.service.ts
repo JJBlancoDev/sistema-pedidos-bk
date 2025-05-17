@@ -5,7 +5,7 @@ import { Repository } from 'typeorm';
 
 import { ErrorManager } from 'src/config/handlers/error.handler';
 import { UserEntity } from '../entities/user.entity';
-import { CreateUserDTO } from '../dto/create-user.dto';
+import { CreateUserDTO } from '../dtos/create-user.dto';
 
 import * as bcrypt from 'bcrypt';
 import { RoleService } from './role.service';

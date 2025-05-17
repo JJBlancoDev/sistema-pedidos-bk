@@ -6,7 +6,7 @@ import {
 import { InjectRepository } from '@nestjs/typeorm';
 import { RoleEntity } from '../entities/role.entity';
 import { In, Repository } from 'typeorm';
-import { CreateRoleDTO } from '../dto/create-role.dto';
+import { CreateRoleDTO } from '../dtos/create-role.dto';
 import { ErrorManager } from 'src/config/handlers/error.handler';
 
 @Injectable()
